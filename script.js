@@ -1,5 +1,5 @@
 /* ...existing code... */
-import marked from "marked";
+import * as marked from "marked";
 import DOMPurify from "dompurify";
 
 const form = document.getElementById('resolve-form');
@@ -185,4 +185,3 @@ prevBtn.addEventListener('click', async () => {
 });
 
 /* ...existing code... */
-
